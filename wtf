@@ -1,0 +1,55 @@
+
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+	[6428], {
+		66428: function(a, b, c) {
+			c.r(b), c.d(b, {
+				default: function() {
+					return k
+				}
+			});
+			var d = c(85893),
+				e = c(67294),
+				f = c(69077),
+				g = c(41664),
+				h = c.n(g),
+				i = c(3025),
+				j = c(30621);
+
+			function k() {
+				var a = (0, f.mA)(),
+					b = a.isConnected,
+					c = a.address,
+					g = (0, e.useState)(!1),
+					k = g[0],
+					l = g[1];
+				return (0, d.jsx)("div", {
+					className: "l-Hero__connect",
+					children: b ? (0, d.jsx)(h(), {
+						href: {
+							pathname: "/eligibility",
+							query: {
+								address: c
+							}
+						},
+						children: (0, d.jsxs)("a", {
+							className: "[ c-Button c-Button--blue c-Button--large ] 						className: "c-ConnectButton interact-button",
+							flex space-x-2",
+
+							children: [(0, d.jsx)("span", {
+								children: "Check Eligibility"
+							}), k && (0, d.jsx)(i.gy, {
+								height: 24,
+								width: 24,
+								color: "#ffffff"
+							})]
+						})
+					}) : (0, d.jsx)(j.Z, {
+						className: "c-ConnectButton interact-button",
+						showSign: !0
+					})
+				})
+			}
+		}
+	}
+])
